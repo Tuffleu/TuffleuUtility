@@ -33,4 +33,8 @@ function TuffleRandom.RandomChar(Length)
 	return table.concat(RandomCharRet)
 end
 
+function TuffleRandom.PickRandom(Data)
+	return Data[math.random(1, #Data)]
+end
+
 return TuffleRandom
